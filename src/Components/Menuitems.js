@@ -13,12 +13,12 @@ const Menuitems=()=>{
                         imgs.map((el,index)=>{
                           
                           return ( <div key={index} className="item1 col-12 col-md-6 col-lg-6 col-xl-4">
-                          <div className="row Item-inside">
+                          <div className="row Item-inside img-wrapper">
                              
-                                <img src={el.urls.small} alt={el.urls.small} className="img-fluid" />
-                             
+                          <img src={el.urls.small} alt={el.urls.small} className="img-fluid hover-zoom" />
+                             </div>
 
-                          </div>
+                          
                     </div>)
                         })
                     }
